@@ -1,6 +1,6 @@
 //Maya ASCII 2017ff04 scene
 //Name: TREX Retopo.0005.ma
-//Last modified: Mon, Jun 26, 2017 06:37:33 PM
+//Last modified: Mon, Jun 26, 2017 06:37:28 PM
 //Codeset: 1252
 requires maya "2017ff04";
 requires -nodeType "renderSetup" "renderSetup.py" "1.0";
@@ -15,8 +15,8 @@ fileInfo "osv" "Microsoft Windows 8 Home Premium Edition, 64-bit  (Build 9200)\n
 fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "44738CCE-4501-44B9-EBE1-7DA5FDEC0D5A";
-	setAttr ".t" -type "double3" 13.46080493452012 11.335413293451561 57.707314746233479 ;
-	setAttr ".r" -type "double3" 713.66164694760755 360.99999999995532 -4.970373701776002e-017 ;
+	setAttr ".t" -type "double3" 41.147959983739611 10.753061101273843 49.830051523792307 ;
+	setAttr ".r" -type "double3" 714.26164694760894 390.99999999995612 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "1BEB996C-4CAF-2256-66A9-DCB93D962B60";
 	setAttr -k off ".v";
